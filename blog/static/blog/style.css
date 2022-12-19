@@ -1,0 +1,115 @@
+body {
+    /*font-family: 'Nanum Myeongjo', serif;*/
+    background: black url("images/bg10.jpg") no-repeat bottom right;
+}
+h1 a {
+    color: #FCA205;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.page-header {
+    /*background-color: cornflowerblue;*/
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+.content {
+    margin-left: 40px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Sunflower', sans-serif;
+}
+.date {
+    color: #828282
+}
+
+.save {
+    float: right;
+}
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+.post {
+    margin: 20px;
+    padding: 40px;
+}
+.post-box {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    border: 10px solid dodgerblue;
+}
+.post h1 a, .post h1 a:visited {
+    color: dodgerblue;
+}
+
+.bg1 {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 30%;
+    height: 110%;
+    z-index: -4;
+}
+.bg2 {
+    position: absolute;
+    top: -1%;
+    left: 0;
+    width: 30%;
+    z-index: -3;
+}
+
+.bg9 {
+    position: absolute;
+    top: -5%;
+    right: 5%;
+    width: 50%;
+    height: 105%;
+    z-index: -2;
+}
+
+.bg5 {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 20%;
+    z-index: -1;
+    transform: rotate(40deg);
+}
+
+.bg6 {
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+    width: 40%;
+    z-index: -1;
+    transform: rotate(-10deg);
+}
+.bg66 {
+    position: absolute;
+    bottom: 1%;
+    left: 15%;
+    width: 40%;
+    z-index: -1;
+    transform: rotate(5deg);
+}
+
+.bg3 {
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    width: 20%;
+    z-index: -4;
+    transform: rotate(-50deg);
+}
